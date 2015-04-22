@@ -5,7 +5,7 @@ This repository contains **Dockerfile** of [nginx](http://nginx.org/) for [Docke
 
 ### Base Docker Image
 
-* [julienvincent/ubuntu](https://registry.hub.docker.com/u/julienvincent/ubuntu/)
+* [debian](https://registry.hub.docker.com/u/library/debian/)
 
 
 ### Installation
@@ -14,7 +14,7 @@ This repository contains **Dockerfile** of [nginx](http://nginx.org/) for [Docke
 
 2. Download [automated build](https://registry.hub.docker.com/u/julienvincent/nginx/) from public [Docker Hub Registry](https://registry.hub.docker.com/): `docker pull julienvincent/nginx`
 
-   (alternatively, you can build an image from the Dockerfile: `docker build -t="julienvincent/nginx" github.com/julienvincent/nginx`)
+   (alternatively, you can build an image from the Dockerfile: `docker build -t="julienvincent/nginx" github.com/julienvincent/docker-nginx`)
 
 
 ### Usage
