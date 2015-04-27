@@ -1,11 +1,12 @@
 #
-# Nginx Dockerfile
+# Laravel Dockerfile
 #
-# https://github.com/dockerfile/nginx
+# https://github.com/julienvincent/docker-nginx
 #
 
 # Pull base image.
 FROM nginx:1.7.10
+MAINTAINER Julien Vincent "julienlucvincent@gmail.com"
 
 RUN \
     apt-get update && \
