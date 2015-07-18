@@ -1,6 +1,6 @@
 # julienvincent/nginx:1.9.2
 
-FROM nginx:1.9.2
+FROM debian
 MAINTAINER Julien Vincent "julienlucvincent@gmail.com"
 
 RUN mkdir -p /data/www
